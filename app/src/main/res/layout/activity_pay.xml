@@ -1,0 +1,99 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#3f51b5"
+    android:orientation="vertical" tools:context="com.paypal.payment.PaymentActivity">
+
+    <WebView
+        android:id="@+id/webviewmerchant"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/qrcode_logo"
+        android:layout_width="165dp"
+        android:layout_height="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/qrcode_ic_back"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:background="@drawable/paypal"
+        android:clickable="true"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/merchantlabel"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Merchant Name"
+        android:textColor="@color/line_color"
+        android:textSize="17sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/merchant"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="10dp"
+        android:text="NA"
+        android:textColor="@color/line_color"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/orderlabel"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Order ID"
+        android:textColor="@color/line_color"
+        android:textSize="17sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/order"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+        android:text="NA"
+        android:textColor="@color/line_color"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/amountlabel"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Amount"
+        android:textColor="@color/line_color"
+        android:textSize="17sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="@dimen/activity_horizontal_margin"
+        android:text="0 SGD"
+        android:textColor="@color/line_color"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/pay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Pay with PayPal"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

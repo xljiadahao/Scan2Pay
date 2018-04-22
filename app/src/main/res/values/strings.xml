@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">PayPalQR</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="scan_barcode_title">Bar Code Scanning</string>
+    <string name="scan_qrcode_title">QR Code Scanning</string>
+    <string name="scan_allcode_title">QR/Bar Code Scanning</string>
+    <string name="scan_barcode_hint">Put the Bar Code into the camera aperture for automatic scanning</string>
+    <string name="scan_qrcode_hint">Put the QR Code into the camera aperture for automatic scanning</string>
+    <string name="scan_allcode_hint">Put the object into the camera aperture for automatic scanning</string>
+    <string name="title_activity_sao_mao">SaoMaoActivity</string>
+    <string name="action_settings">Settings</string>
+
+
+    <color name="line_color">#cccccc</color>
+    <color name="edittext_line_color">#000000</color>
+    <string name="title_activity_jump_to">JumpToActivity</string>
+</resources>

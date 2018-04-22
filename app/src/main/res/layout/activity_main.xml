@@ -12,7 +12,6 @@
         android:id="@+id/qrcode_logo"
         android:layout_width="165dp"
         android:layout_height="62dp"
-
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_alignTop="@+id/qrcode_ic_back"
@@ -23,41 +22,15 @@
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/create_code"
+        android:id="@+id/scan_2code"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="225dp"
         android:layout_marginTop="100dp"
         android:gravity="center"
         android:padding="10dp"
-        android:text="Generate QR/Bar Code"
-        android:textSize="17sp" />
-
-    <Button
-        android:id="@+id/scan_2code"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:padding="10dp"
-        android:text="Scan QR Code"
-        android:textSize="17sp" />
-
-    <Button
-        android:id="@+id/scan_bar_code"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:padding="10dp"
-        android:text="Scan Bar Code"
-        android:textSize="17sp" />
-
-    <Button
-        android:id="@+id/scan_code"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:padding="10dp"
-        android:text="Scan QR/Bar Code"
-        android:textSize="17sp" />
+        android:text="Scan to Pay"
+        android:textStyle="italic"
+        android:textSize="40sp" />
 
     <RadioGroup
         android:id="@+id/env"
@@ -77,7 +50,5 @@
             android:layout_height="wrap_content"
             android:text="Demo" />
     </RadioGroup>
-
-
 
 </LinearLayout>
